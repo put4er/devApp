@@ -1,0 +1,11 @@
+<h2 mat-dialog-title>Історія</h2>
+
+<mat-dialog-content>
+  <div *ngFor="let data of data">
+   <span>{{data.Time}} - секунд; {{data.Num}} - число</span>
+  </div>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button class="mat-raised-button" (click)="close()">Закрити</button>
+</mat-dialog-actions>

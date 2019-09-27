@@ -1,0 +1,15 @@
+.example-card {
+  max-width: 720px;
+}
+
+.example-header-image {
+  background-image: url("../../../assets/me/header_photo.png");
+  background-size: cover;
+}
+img {
+  max-height: 200px;
+  max-width: 200px;
+}
+p {
+  text-indent: 20px;
+}

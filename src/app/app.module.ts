@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { RandomComponent } from './components/random/random.component';
 import { DeveloperComponent } from './components/developer/developer.component';
 import {MaterialModule} from './material.module';
+import { DialogBodyComponent } from './components/dialog-body/dialog-body.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import {MaterialModule} from './material.module';
     HeaderComponent,
     RandomComponent,
     DeveloperComponent,
+    DialogBodyComponent,
   ],
   imports: [
     BrowserModule,
@@ -23,6 +25,7 @@ import {MaterialModule} from './material.module';
     MaterialModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [DialogBodyComponent]
 })
 export class AppModule { }

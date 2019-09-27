@@ -1,0 +1,40 @@
+
+.rand {
+  position: relative;
+  top: 40%;
+  left: 40%;
+}
+.button_bot {
+  position:absolute;
+  bottom:5px;
+  right:5px;
+}
+.squareCan {
+  position:absolute;
+  top: 45%;
+  left: 45%;
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+.circleCan {
+  position:absolute;
+  top: 45%;
+  left: 45%;
+  width: 100px;
+  height: 100px;
+  background: blue;
+  border-radius: 50%;
+
+}
+.triangleCan {
+  position:absolute;
+  top: 45%;
+  left: 45%;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid green;
+
+}
